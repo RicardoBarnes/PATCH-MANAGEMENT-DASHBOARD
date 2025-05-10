@@ -38,11 +38,12 @@ cp .env.example .env
 Edit it to match your environment:
 
 DATABASE_URL=mysql+pymysql://root:yourpassword@localhost/Patch_Management
+
 SECRET_KEY=supersecretkey
 
 ALGORITHM=HS256
 
-Requirements
+Requirements:
 
 Python 3.9 or higher
 
